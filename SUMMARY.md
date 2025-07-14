@@ -1,6 +1,8 @@
 # Table of contents
 
 * [HOME](README.md)
+* [Trees](trees/README.md)
+  * [144. Binary Tree Preorder Traversal](trees/144.-binary-tree-preorder-traversal.md)
 * [Stacks & Queues](stacks-and-queues/README.md)
   * [225. Implement Stack using Queues](stacks-and-queues/225.-implement-stack-using-queues.md)
   * [232. Implement Queue using Stacks](stacks-and-queues/232.-implement-queue-using-stacks.md)
