@@ -13,6 +13,7 @@
   * [100. Same Tree](trees/100.-same-tree.md)
   * [103. Binary Tree Zigzag Level Order Traversal](trees/103.-binary-tree-zigzag-level-order-traversal.md)
   * [101. Symmetric Tree](trees/101.-symmetric-tree.md)
+  * [236. Lowest Common Ancestor of a Binary Tree](trees/236.-lowest-common-ancestor-of-a-binary-tree.md)
 * [Stacks & Queues](stacks-and-queues/README.md)
   * [225. Implement Stack using Queues](stacks-and-queues/225.-implement-stack-using-queues.md)
   * [232. Implement Queue using Stacks](stacks-and-queues/232.-implement-queue-using-stacks.md)
