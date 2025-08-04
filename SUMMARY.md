@@ -4,6 +4,7 @@
 * [Binary Search Trees](binary-search-trees/README.md)
   * [235. Lowest Common Ancestor of a Binary Search Tree](binary-search-trees/235.-lowest-common-ancestor-of-a-binary-search-tree.md)
   * [230. Kth Smallest Element in a BST](binary-search-trees/230.-kth-smallest-element-in-a-bst.md)
+  * [98. Validate Binary Search Tree](binary-search-trees/98.-validate-binary-search-tree.md)
 * [Trees](trees/README.md)
   * [144. Binary Tree Preorder Traversal](trees/144.-binary-tree-preorder-traversal.md)
   * [94. Binary Tree Inorder Traversal](trees/94.-binary-tree-inorder-traversal.md)
