@@ -30,7 +30,9 @@
   * [BFS of Graph](graphs/bfs-of-graph.md)
   * [547. Number of Provinces](graphs/547.-number-of-provinces.md)
   * [733. Flood Fill](graphs/733.-flood-fill.md)
+  * [200. Number of Islands](graphs/200.-number-of-islands.md)
   * [BFS Undirected Graph Cycle](graphs/bfs-undirected-graph-cycle.md)
+  * [DFS Undirected Graph Cycle](graphs/dfs-undirected-graph-cycle.md)
 
 ## SQL
 
