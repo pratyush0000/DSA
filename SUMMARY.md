@@ -33,6 +33,7 @@
   * [200. Number of Islands](graphs/200.-number-of-islands.md)
   * [BFS Undirected Graph Cycle](graphs/bfs-undirected-graph-cycle.md)
   * [DFS Undirected Graph Cycle](graphs/dfs-undirected-graph-cycle.md)
+  * [DFS Directed Graph Cycle](graphs/dfs-directed-graph-cycle.md)
 
 ## SQL
 
