@@ -40,6 +40,7 @@
   * [785. Is Graph Bipartite? (BFS)](graphs/785.-is-graph-bipartite-bfs.md)
   * [785. Is Graph Bipartite? (DFS)](graphs/785.-is-graph-bipartite-dfs.md)
   * [Kosaraju’s Algorithm — Strongly Connected Components (SCC)](graphs/kosarajus-algorithm-strongly-connected-components-scc.md)
+  * [2360. Longest Cycle in a Graph](graphs/2360.-longest-cycle-in-a-graph.md)
 * [OS](os/README.md)
   * [Topics](os/topics.md)
 * [SQL](sql/README.md)
