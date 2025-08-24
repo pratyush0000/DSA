@@ -1,7 +1,3 @@
----
-icon: puzzle-piece
----
-
 # Topological Sort (DFS + Kahn’s Algorithm)
 
 ### 🔹 What is Topological Sort?

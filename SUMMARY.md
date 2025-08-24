@@ -37,6 +37,8 @@
   * [Topological Sort (DFS + Kahn’s Algorithm)](graphs/topological-sort-dfs-+-kahns-algorithm.md)
   * [DFS Topological sort](graphs/dfs-topological-sort.md)
   * [BFS Topological sort (Kahn's algo)](graphs/bfs-topological-sort-kahns-algo.md)
+  * [785. Is Graph Bipartite? (BFS)](graphs/785.-is-graph-bipartite-bfs.md)
+  * [785. Is Graph Bipartite? (DFS)](graphs/785.-is-graph-bipartite-dfs.md)
 
 ## SQL
 
