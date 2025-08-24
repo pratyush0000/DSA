@@ -34,6 +34,7 @@
   * [BFS Undirected Graph Cycle](graphs/bfs-undirected-graph-cycle.md)
   * [DFS Undirected Graph Cycle](graphs/dfs-undirected-graph-cycle.md)
   * [DFS Directed Graph Cycle](graphs/dfs-directed-graph-cycle.md)
+  * [Topological Sort (DFS + Kahn’s Algorithm)](graphs/topological-sort-dfs-+-kahns-algorithm.md)
   * [DFS Topological sort](graphs/dfs-topological-sort.md)
   * [BFS Topological sort (Kahn's algo)](graphs/bfs-topological-sort-kahns-algo.md)
 
