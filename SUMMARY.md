@@ -40,12 +40,7 @@
   * [785. Is Graph Bipartite? (BFS)](graphs/785.-is-graph-bipartite-bfs.md)
   * [785. Is Graph Bipartite? (DFS)](graphs/785.-is-graph-bipartite-dfs.md)
   * [Kosaraju’s Algorithm — Strongly Connected Components (SCC)](graphs/kosarajus-algorithm-strongly-connected-components-scc.md)
-
-## SQL
-
-* [SQL COMMANDS](sql/sql-commands.md)
-
-***
-
 * [OS](os/README.md)
   * [Topics](os/topics.md)
+* [SQL](sql/README.md)
+  * [SQL COMMANDS](sql/sql-commands.md)
