@@ -66,39 +66,35 @@ class Solution {
 
 ### Explanation of Steps
 
-1. **Adjacency List Construction**
-   * Convert `edges[][]` into an adjacency list for efficient traversal.
-   * Each entry = `(neighbor, weight)`.
-2. **Distance Array**
-   * `dist[i]` = shortest distance from `src` to node `i`.
-   * Initialize with `INT_MAX`, except `dist[src] = 0`.
-3. **Priority Queue (Min-Heap)**
-   * Stores `(distance, node)`.
-   * Ensures we always process the _closest_ unprocessed node first.
-   * Uses `greater<>` to make it a **min-heap**.
-4. **Processing Loop**
-   * Pop `(d, node)` from the heap.
-   * If this entry is outdated (`d > dist[node]`), skip it.
-   * For each neighbor, check if going through `node` gives a shorter path.
-   * If yes, update `dist[nbr]` and push `(newDist, nbr)` into the heap.
+1. **Initialization**
+   * `dist[i]` = shortest distance from `src` to `i`.
+   * Start with `∞` (here `1e8`), except `dist[src] = 0`.
+2. **Relaxation Phase (V-1 iterations)**
+   * For each edge `(u → v, w)`, if going through `u` is cheaper, update `dist[v]`.
+   * Why `V-1` times?
+     * The longest shortest path in a graph without cycles has at most `V-1` edges.
+     * After `V-1` rounds, all shortest paths are finalized.
+3. **Negative Cycle Check**
+   * Do one more pass over all edges.
+   * If we can still relax an edge, it means there's a cycle that reduces path cost infinitely → **negative cycle**.
 
 ***
 
 ### Time Complexity (TC)
 
-* Building adjacency list: **O(V + E)**
-* Each edge `(u, v)` is relaxed at most once: **O(E log V)** because pushing into `pq` takes `O(log V)`.
+* For each of `V-1` iterations, we relax `E` edges: **O(V × E)**.
+* Checking negative cycle: **O(E)**.
 * Total:
 
-O((V+E)log⁡V)O((V + E) \log V)O((V+E)logV)
+O(VE)O(VE)O(VE)
 
 ***
 
 ### Space Complexity (SC)
 
-* Adjacency list: **O(V + E)**
-* Distance array: **O(V)**
-* Priority queue: up to **O(V)** elements in worst case
+* Distance array: **O(V)**.
+* Input edges: **O(E)** (already given).
+* No adjacency list required.
 * Total:
 
 O(V+E)O(V + E)O(V+E)
@@ -107,7 +103,9 @@ O(V+E)O(V + E)O(V+E)
 
 ### Key Notes
 
-* Works only with **non-negative weights**.
-* If graph had **negative weights**, we’d need **Bellman-Ford** instead.
-* Dijkstra guarantees shortest path because we always expand the closest node first.
+* Works with **negative edges**, unlike Dijkstra.
+* Slower than Dijkstra (O(VE) vs O((V+E) log V)).
+* Used for:
+  * Detecting **negative weight cycles**.
+  * Graphs with **negative edge weights**.
 
