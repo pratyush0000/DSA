@@ -49,3 +49,6 @@
   * [Topics](os/topics.md)
 * [SQL](sql/README.md)
   * [SQL COMMANDS](sql/sql-commands.md)
+* [MISC](misc/README.md)
+  * [HSBC PYQ](misc/hsbc-pyq/README.md)
+    * [Arranging the array](misc/hsbc-pyq/arranging-the-array.md)
