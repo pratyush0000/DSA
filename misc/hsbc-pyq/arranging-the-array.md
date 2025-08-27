@@ -40,41 +40,36 @@ You don't need to read input or print anything. Your task is to complete the fun
 ## Solution.
 
 ```cpp
+//2 passes
+
 class Solution {
 public:
-    int climbStairs(int n) {
-        if(n<=3) return n;
-        
-        int first = 1;
-        int second = 2;
-        for(int i=2; i<n; i++){
-            int temp = first+second;
-            first = second;
-            second = temp;
+    vector<int> rearrangeArray(vector<int>& nums) {
+        vector<int> pos;
+        vector<int> neg;
+
+        int n=nums.size();
+        for(int i=0; i<n; i++){
+            if(nums[i]>=0){
+                pos.push_back(nums[i]);
+            }
+            else{
+                neg.push_back(nums[i]);
+            }
         }
 
-        return second;
+        vector<int> ans;
+        for(int i=0; i<n/2; i++){
+            ans.push_back(pos[i]);
+            ans.push_back(neg[i]);
+        }
+
+        return ans;
     }
 };
 ```
 
-#### Time Complexity (TC)
 
-* The loop runs from `i = 2` to `i < n` → about **n-2 iterations**.
-* Each iteration does constant work (addition + assignment).
-* Therefore:
-
-O(n)
-
-***
-
-#### Space Complexity (SC)
-
-* Only three integer variables are used: `first`, `second`, `temp`.
-* No extra arrays or recursion stack.
-* Therefore:
-
-O(1)
 
 ***
 

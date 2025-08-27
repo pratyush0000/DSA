@@ -1,6 +1,8 @@
 # Table of contents
 
 * [HOME](README.md)
+* [Arrays](arrays/README.md)
+  * [2149. Rearrange Array Elements by Sign](arrays/2149.-rearrange-array-elements-by-sign.md)
 * [Binary Search Trees](binary-search-trees/README.md)
   * [235. Lowest Common Ancestor of a Binary Search Tree](binary-search-trees/235.-lowest-common-ancestor-of-a-binary-search-tree.md)
   * [230. Kth Smallest Element in a BST](binary-search-trees/230.-kth-smallest-element-in-a-bst.md)
