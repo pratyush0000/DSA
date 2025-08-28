@@ -52,6 +52,8 @@
     * [70. Climbing Stairs](dp/1d/70.-climbing-stairs.md)
     * [198. House Robber](dp/1d/198.-house-robber.md)
     * [213. House Robber II](dp/1d/213.-house-robber-ii.md)
+  * [2D/3D](dp/2d-3d/README.md)
+    * [62. Unique Paths](dp/2d-3d/62.-unique-paths.md)
 * [OS](os/README.md)
   * [Topics](os/topics.md)
 * [SQL](sql/README.md)
