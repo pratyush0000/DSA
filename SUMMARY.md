@@ -54,6 +54,7 @@
     * [213. House Robber II](dp/1d/213.-house-robber-ii.md)
   * [2D/3D](dp/2d-3d/README.md)
     * [62. Unique Paths](dp/2d-3d/62.-unique-paths.md)
+    * [63. Unique Paths II](dp/2d-3d/63.-unique-paths-ii.md)
 * [OS](os/README.md)
   * [Topics](os/topics.md)
 * [SQL](sql/README.md)
