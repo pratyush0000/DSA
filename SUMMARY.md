@@ -1,6 +1,12 @@
 # Table of contents
 
-* [HOME](README.md)
+* [Theory](README.md)
+  * [Principles](theory/principles/README.md)
+    * [OOP Pillars(Java)](theory/principles/oop-pillars-java.md)
+    * [OOP Pillars(C++)](theory/principles/oop-pillars-c++.md)
+    * [SOLID Principles](theory/principles/solid-principles.md)
+    * [ACID Properties](theory/principles/acid-properties.md)
+* [HOME](<README (1).md>)
 * [Arrays](arrays/README.md)
   * [2149. Rearrange Array Elements by Sign](arrays/2149.-rearrange-array-elements-by-sign.md)
 * [Binary Search Trees](binary-search-trees/README.md)
@@ -55,6 +61,7 @@
   * [2D/3D](dp/2d-3d/README.md)
     * [62. Unique Paths](dp/2d-3d/62.-unique-paths.md)
     * [63. Unique Paths II](dp/2d-3d/63.-unique-paths-ii.md)
+    * [64. Minimum Path Sum](dp/2d-3d/64.-minimum-path-sum.md)
 * [OS](os/README.md)
   * [Topics](os/topics.md)
 * [SQL](sql/README.md)

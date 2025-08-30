@@ -1,6 +1,6 @@
 ---
-icon: house-flag
+icon: book-open
 ---
 
-# HOME
+# Theory
 
