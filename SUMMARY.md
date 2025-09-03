@@ -67,6 +67,4 @@
 * [SQL](sql/README.md)
   * [SQL COMMANDS](sql/sql-commands.md)
 * [MISC](misc/README.md)
-  * [HSBC PYQ](misc/hsbc-pyq/README.md)
-    * [Arranging the array](misc/hsbc-pyq/arranging-the-array.md)
-    * [74. Search a 2D Matrix](misc/hsbc-pyq/74.-search-a-2d-matrix.md)
+  * [Tree Of Space (JusPay)](misc/tree-of-space-juspay.md)
