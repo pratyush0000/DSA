@@ -4,57 +4,50 @@ description: this problem is to be done on vscode as no leetcode question exists
 
 # Tree Of Space (JusPay)
 
-### Problem Statement
+Locking & Unlocking an N-ary Tree
 
-You are given a **complete balanced N-ary tree** with `n` nodes.
+### Problem
 
-* The nodes are numbered from `0` to `n-1`.
-* Node `0` is the root of the tree.
-* You need to support `q` queries of three types:
+You are given a **complete, balanced N-ary tree** with `n` nodes, numbered `0 … n-1`.\
+Node `0` is the root. You must process `q` queries of three types:
 
-***
+#### 1) `lock(v, id)`
 
-#### 1. **lock(v, id)**
+Lock node `v` for user `id` **iff**:
 
-Lock the node `v` for user `id` **if and only if**:
+* `v` is **not already locked**,
+* **no ancestor** of `v` is locked,
+* **no descendant** of `v` is locked.
 
-* Node `v` is **not already locked**.
-* None of the **ancestors** of `v` are locked.
-* None of the **descendants** of `v` are locked.
+On success, mark `v` locked by `id` and print `true`, otherwise print `false`.
 
-✅ If successful, return `true` and mark `v` as locked by `id`.\
-❌ Otherwise, return `false`.
+#### 2) `unlock(v, id)`
 
-***
+Unlock node `v` **iff**:
 
-#### 2. **unlock(v, id)**
+* `v` is currently **locked**, and
+* it is locked by the **same user `id`**.
 
-Unlock the node `v` **if and only if**:
+On success print `true`, otherwise `false`.
 
-* Node `v` is **currently locked**.
-* It is locked by the **same user `id`**.
+#### 3) `upgrade(v, id)`
 
-✅ If successful, return `true`.\
-❌ Otherwise, return `false`.
+Upgrade node `v` **iff**:
 
-***
+* `v` is **not locked**,
+* `v` has **at least one locked descendant**,
+* **every locked descendant** of `v` is locked by **the same `id`**,
+* **no ancestor** of `v` is locked.
 
-#### 3. **upgrade(v, id)**
+On success:
 
-Upgrade the node `v` for user `id` **if and only if**:
+* unlock all locked descendants of `v`,
+* lock `v` with `id`,
+* print `true`; otherwise print `false`.
 
-* Node `v` is **not locked**.
-* At least one **descendant** of `v` is locked.
-* All locked descendants are locked by the **same user `id`**.
-* None of the **ancestors** of `v` are locked.
-
-✅ If successful:
-
-* Unlock all locked descendants of `v`.
-* Lock `v` with `id`.
-* Return `true`.
-
-❌ Otherwise, return `false`.
+> 💡 Note: This problem **disallows locking** a node if **any** ancestor **or** descendant is locked (by **any** user).\
+> `unlock` requires the same `id`.\
+> `upgrade` both checks the uniform `id` among locked descendants and performs the bulk unlock + lock.
 
 ***
 
@@ -69,12 +62,10 @@ p0 p1 p2 ... p(n-1)
 <queryq>
 ```
 
-Where:
-
-* `n` → total number of nodes.
-* `m` → branching factor (N-ary tree degree).
-* `q` → number of queries.
-* `pi` → parent of node `i`, with `-1` for the root.
+* `n` — number of nodes (0 to n-1)
+* `m` — branching factor (tree arity); included for completeness (you can build from `parent[]`)
+* `q` — number of queries
+* `pi` — parent of node `i` (`-1` for the root)
 *   Each query is one of:
 
     ```
@@ -83,20 +74,15 @@ Where:
     upgrade v id
     ```
 
-***
-
 ### Output Format
 
-For each query, print:
-
-* `true` → if the operation was successful.
-* `false` → otherwise.
+For each query, print `true` or `false` on its own line.
 
 ***
 
-### Example
+### Sample A (Binary tree)
 
-#### Input
+**Input**
 
 ```
 7 2 9
@@ -112,7 +98,17 @@ lock 5 3
 upgrade 0 2
 ```
 
-#### Output
+Tree from parent array (m=2):
+
+```
+        0
+      /   \
+     1     2
+    / \   / \
+   3  4  5   6
+```
+
+**Output**
 
 ```
 true
@@ -121,17 +117,31 @@ false
 true
 true
 true
-true
 false
 true
+false
 ```
 
+**Why (high level)**
 
+* Lock 2 by 1 ✅
+* Lock 2 by 2 ❌ (already locked)
+* Unlock 2 by 2 ❌ (wrong user)
+* Unlock 2 by 1 ✅
+* Lock 4 by 2 ✅
+* Upgrade 1 by 2 ✅ (descendants {4} all by 2 → unlock 4, lock 1)
+* Lock 4 by 2 ❌ (ancestor 1 is locked)
+* Lock 5 by 3 ✅
+* Upgrade 0 by 2 ❌ (locked descendants have ids {2,3} → mixed)
 
-#### Input 2
+***
+
+### Sample B (Ternary tree)
+
+**Input**
 
 ```
-9 3 7
+9 3 9
 -1 0 0 0 1 1 2 2 3
 lock 4 1
 lock 5 1
@@ -140,42 +150,21 @@ lock 7 2
 lock 8 1
 unlock 8 2
 upgrade 0 1
-
+unlock 7 2
+upgrade 0 1
 ```
 
-#### Explanation
+Tree from parent array (m=3):
 
-* `n = 9`, `m = 3` (ternary tree), `q = 7`.
-*   Parent array:
+```
+            0
+         /  |  \
+        1   2   3
+      /  \  | \   \
+     4   5  6  7   8
+```
 
-    ```
-    index: 0 1 2 3 4 5 6 7 8
-    value: -1 0 0 0 1 1 2 2 3
-    ```
-
-    Tree structure:
-
-    ```
-               0
-            /  |  \
-           1   2   3
-         /  \  | \   \
-        4   5  6  7   8
-    ```
-
-***
-
-#### Queries step by step
-
-1. **lock 4 1** → true (node 4 locked by user 1)
-2. **lock 5 1** → true (node 5 locked by user 1)
-3. **upgrade 1 1** → true (unlocks 4 & 5, locks 1 by user 1)
-4. **lock 7 2** → true (node 7 locked by user 2)
-5. **lock 8 1** → true (node 8 locked by user 1)
-6. **unlock 8 2** → false (wrong user, node 8 locked by user 1)
-7. **upgrade 0 1** → false (fails because locked descendant 7 is owned by user 2, not 1)
-
-#### Output 2
+**Output**
 
 ```
 true
@@ -185,16 +174,25 @@ true
 true
 false
 false
-
+true
+true
 ```
 
+**Why (high level)**
 
+* Lock 4 by 1 ✅
+* Lock 5 by 1 ✅
+* Upgrade 1 by 1 ✅ (unlock {4,5}, lock 1)
+* Lock 7 by 2 ✅
+* Lock 8 by 1 ✅
+* Unlock 8 by 2 ❌ (wrong user)
+* Upgrade 0 by 1 ❌ (locked descendants include id 2 at node 7 → mixed)
+* Unlock 7 by 2 ✅
+* Upgrade 0 by 1 ✅ (now all locked descendants are id 1 → unlock 1, lock 0)
 
 
 
 
 
 ## Solution.
-
-
 
