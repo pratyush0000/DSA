@@ -78,6 +78,7 @@
     * [2882. Drop Duplicate Rows](sheets/introduction-to-pandas/2882.-drop-duplicate-rows.md)
     * [2883. Drop Missing Data](sheets/introduction-to-pandas/2883.-drop-missing-data.md)
     * [2884. Modify Columns](sheets/introduction-to-pandas/2884.-modify-columns.md)
+    * [2885. Rename Columns](sheets/introduction-to-pandas/2885.-rename-columns.md)
   * [LeetCode 75](sheets/leetcode-75/README.md)
     * [Heap / Priority Queue](sheets/leetcode-75/heap-priority-queue/README.md)
       * [215. Kth Largest Element in an Array](sheets/leetcode-75/heap-priority-queue/215.-kth-largest-element-in-an-array.md)
