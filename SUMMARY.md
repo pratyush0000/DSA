@@ -83,6 +83,6 @@
     * [Heap / Priority Queue](sheets/leetcode-75/heap-priority-queue/README.md)
       * [215. Kth Largest Element in an Array](sheets/leetcode-75/heap-priority-queue/215.-kth-largest-element-in-an-array.md)
       * [2336. Smallest Number in Infinite Set](sheets/leetcode-75/heap-priority-queue/2336.-smallest-number-in-infinite-set.md)
-      * [2462. Total Cost to Hire K Workers](sheets/leetcode-75/heap-priority-queue/2462.-total-cost-to-hire-k-workers.md)
+      * [1071. Greatest Common Divisor of Strings](sheets/leetcode-75/heap-priority-queue/1071.-greatest-common-divisor-of-strings.md)
     * [Array / String](sheets/leetcode-75/array-string/README.md)
       * [1768. Merge Strings Alternately](sheets/leetcode-75/array-string/1768.-merge-strings-alternately.md)
