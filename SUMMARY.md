@@ -80,6 +80,8 @@
     * [2884. Modify Columns](sheets/introduction-to-pandas/2884.-modify-columns.md)
     * [2885. Rename Columns](sheets/introduction-to-pandas/2885.-rename-columns.md)
   * [LeetCode 75](sheets/leetcode-75/README.md)
+    * [Stack](sheets/leetcode-75/stack/README.md)
+      * [2390. Removing Stars From a String](sheets/leetcode-75/stack/2390.-removing-stars-from-a-string.md)
     * [Prefix Sum](sheets/leetcode-75/prefix-sum/README.md)
       * [1732. Find the Highest Altitude](sheets/leetcode-75/prefix-sum/1732.-find-the-highest-altitude.md)
       * [724. Find Pivot Index](sheets/leetcode-75/prefix-sum/724.-find-pivot-index.md)
