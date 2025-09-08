@@ -80,6 +80,8 @@
     * [2884. Modify Columns](sheets/introduction-to-pandas/2884.-modify-columns.md)
     * [2885. Rename Columns](sheets/introduction-to-pandas/2885.-rename-columns.md)
   * [LeetCode 75](sheets/leetcode-75/README.md)
+    * [Prefix Sum](sheets/leetcode-75/prefix-sum/README.md)
+      * [1732. Find the Highest Altitude](sheets/leetcode-75/prefix-sum/1732.-find-the-highest-altitude.md)
     * [Heap / Priority Queue](sheets/leetcode-75/heap-priority-queue/README.md)
       * [215. Kth Largest Element in an Array](sheets/leetcode-75/heap-priority-queue/215.-kth-largest-element-in-an-array.md)
       * [2336. Smallest Number in Infinite Set](sheets/leetcode-75/heap-priority-queue/2336.-smallest-number-in-infinite-set.md)
