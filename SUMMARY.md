@@ -82,6 +82,8 @@
   * [LeetCode 75](sheets/leetcode-75/README.md)
     * [Stack](sheets/leetcode-75/stack/README.md)
       * [2390. Removing Stars From a String](sheets/leetcode-75/stack/2390.-removing-stars-from-a-string.md)
+    * [Queue](sheets/leetcode-75/queue/README.md)
+      * [933. Number of Recent Calls](sheets/leetcode-75/queue/933.-number-of-recent-calls.md)
     * [Prefix Sum](sheets/leetcode-75/prefix-sum/README.md)
       * [1732. Find the Highest Altitude](sheets/leetcode-75/prefix-sum/1732.-find-the-highest-altitude.md)
       * [724. Find Pivot Index](sheets/leetcode-75/prefix-sum/724.-find-pivot-index.md)
