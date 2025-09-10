@@ -82,6 +82,7 @@
   * [LeetCode 75](sheets/leetcode-75/README.md)
     * [Linked List](sheets/leetcode-75/linked-list/README.md)
       * [2095. Delete the Middle Node of a Linked List](sheets/leetcode-75/linked-list/2095.-delete-the-middle-node-of-a-linked-list.md)
+      * [206. Reverse Linked List](sheets/leetcode-75/linked-list/206.-reverse-linked-list.md)
       * [328. Odd Even Linked List](sheets/leetcode-75/linked-list/328.-odd-even-linked-list.md)
     * [Stack](sheets/leetcode-75/stack/README.md)
       * [2390. Removing Stars From a String](sheets/leetcode-75/stack/2390.-removing-stars-from-a-string.md)
