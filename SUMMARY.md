@@ -2,6 +2,8 @@
 
 * [SDE Interview Preparation Checklist](README.md)
 * [Theory](<README (2).md>)
+  * [SQL](theory/sql/README.md)
+    * [Keys](theory/sql/keys.md)
   * [Principles](theory/principles/README.md)
     * [OOP Pillars(Java)](theory/principles/oop-pillars-java.md)
     * [OOP Pillars(C++)](theory/principles/oop-pillars-c++.md)
