@@ -5,6 +5,7 @@
   * [SQL](theory/sql/README.md)
     * [Keys](theory/sql/keys.md)
     * [Normalization](theory/sql/normalization.md)
+    * [Parts of SQL](theory/sql/parts-of-sql.md)
   * [Principles](theory/principles/README.md)
     * [OOP Pillars(Java)](theory/principles/oop-pillars-java.md)
     * [OOP Pillars(C++)](theory/principles/oop-pillars-c++.md)
