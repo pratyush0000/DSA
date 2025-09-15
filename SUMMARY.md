@@ -106,3 +106,5 @@
     * [Array / String](sheets/leetcode-75/array-string/README.md)
       * [1768. Merge Strings Alternately](sheets/leetcode-75/array-string/1768.-merge-strings-alternately.md)
       * [1071. Greatest Common Divisor of Strings](sheets/leetcode-75/array-string/1071.-greatest-common-divisor-of-strings.md)
+  * [Top Interview 150](sheets/top-interview-150/README.md)
+    * [Copy of 2390. Removing Stars From a String](sheets/top-interview-150/copy-of-2390.-removing-stars-from-a-string.md)
