@@ -85,6 +85,8 @@
     * [2884. Modify Columns](sheets/introduction-to-pandas/2884.-modify-columns.md)
     * [2885. Rename Columns](sheets/introduction-to-pandas/2885.-rename-columns.md)
   * [LeetCode 75](sheets/leetcode-75/README.md)
+    * [Binary Search](sheets/leetcode-75/binary-search/README.md)
+      * [374. Guess Number Higher or Lower](sheets/leetcode-75/binary-search/374.-guess-number-higher-or-lower.md)
     * [Linked List](sheets/leetcode-75/linked-list/README.md)
       * [2095. Delete the Middle Node of a Linked List](sheets/leetcode-75/linked-list/2095.-delete-the-middle-node-of-a-linked-list.md)
       * [206. Reverse Linked List](sheets/leetcode-75/linked-list/206.-reverse-linked-list.md)
