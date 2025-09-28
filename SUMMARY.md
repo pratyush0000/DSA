@@ -113,5 +113,6 @@
       * [345. Reverse Vowels of a String](sheets/leetcode-75/array-string/345.-reverse-vowels-of-a-string.md)
       * [151. Reverse Words in a String](sheets/leetcode-75/array-string/151.-reverse-words-in-a-string.md)
       * [238. Product of Array Except Self](sheets/leetcode-75/array-string/238.-product-of-array-except-self.md)
+      * [334. Increasing Triplet Subsequence](sheets/leetcode-75/array-string/334.-increasing-triplet-subsequence.md)
   * [Top Interview 150](sheets/top-interview-150/README.md)
     * [Copy of 2390. Removing Stars From a String](sheets/top-interview-150/copy-of-2390.-removing-stars-from-a-string.md)
