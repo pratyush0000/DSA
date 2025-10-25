@@ -119,6 +119,7 @@
       * [104. Maximum Depth of Binary Tree](sheets/leetcode-75/tree/104.-maximum-depth-of-binary-tree.md)
       * [872. Leaf-Similar Trees](sheets/leetcode-75/tree/872.-leaf-similar-trees.md)
       * [1448. Count Good Nodes in Binary Tree](sheets/leetcode-75/tree/1448.-count-good-nodes-in-binary-tree.md)
+      * [1372. Longest ZigZag Path in a Binary Tree](sheets/leetcode-75/tree/1372.-longest-zigzag-path-in-a-binary-tree.md)
       * [1161. Maximum Level Sum of a Binary Tree](sheets/leetcode-75/tree/1161.-maximum-level-sum-of-a-binary-tree.md)
   * [Top Interview 150](sheets/top-interview-150/README.md)
     * [Copy of 2390. Removing Stars From a String](sheets/top-interview-150/copy-of-2390.-removing-stars-from-a-string.md)
