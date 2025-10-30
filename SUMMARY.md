@@ -124,5 +124,6 @@
       * [236. Lowest Common Ancestor of a Binary Tree](sheets/leetcode-75/tree/236.-lowest-common-ancestor-of-a-binary-tree.md)
       * [1161. Maximum Level Sum of a Binary Tree](sheets/leetcode-75/tree/1161.-maximum-level-sum-of-a-binary-tree.md)
       * [700. Search in a Binary Search Tree](sheets/leetcode-75/tree/700.-search-in-a-binary-search-tree.md)
+      * [450. Delete Node in a BST](sheets/leetcode-75/tree/450.-delete-node-in-a-bst.md)
   * [Top Interview 150](sheets/top-interview-150/README.md)
     * [Copy of 2390. Removing Stars From a String](sheets/top-interview-150/copy-of-2390.-removing-stars-from-a-string.md)
