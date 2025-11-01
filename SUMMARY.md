@@ -71,6 +71,7 @@
   * [Topics](os/topics.md)
 * [SQL](sql/README.md)
   * [SQL COMMANDS](sql/sql-commands.md)
+  * [Important things to remember](sql/important-things-to-remember.md)
 * [MISC](misc/README.md)
   * [Tree Of Space (JusPay)](misc/tree-of-space-juspay.md)
 * [Sheets](sheets/README.md)
