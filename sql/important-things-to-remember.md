@@ -37,10 +37,15 @@ order by
   last_name;
 ```
 
-2.
+5. Show patient\_id, diagnosis from admissions. Find patients admitted multiple times for the same diagnosis.
 
 ```sql
-select * from patients where patient_id in (1,45,534,879,1000);
+select
+  patient_id,
+  diagnosis
+from admissions
+group by diagnosis,patient_id
+having count(*) >= 2;
 ```
 
 2.
