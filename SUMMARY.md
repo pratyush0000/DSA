@@ -129,3 +129,6 @@
       * [450. Delete Node in a BST](sheets/leetcode-75/tree/450.-delete-node-in-a-bst.md)
   * [Top Interview 150](sheets/top-interview-150/README.md)
     * [Copy of 2390. Removing Stars From a String](sheets/top-interview-150/copy-of-2390.-removing-stars-from-a-string.md)
+* [Study Plans](study-plans/README.md)
+  * [Binary Search](study-plans/binary-search/README.md)
+    * [704. Binary Search](study-plans/binary-search/704.-binary-search.md)
