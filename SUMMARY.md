@@ -132,3 +132,4 @@
 * [Study Plans](study-plans/README.md)
   * [Binary Search](study-plans/binary-search/README.md)
     * [704. Binary Search](study-plans/binary-search/704.-binary-search.md)
+    * [35. Search Insert Position](study-plans/binary-search/35.-search-insert-position.md)
