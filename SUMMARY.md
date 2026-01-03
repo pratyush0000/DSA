@@ -133,3 +133,4 @@
   * [Binary Search](study-plans/binary-search/README.md)
     * [704. Binary Search](study-plans/binary-search/704.-binary-search.md)
     * [35. Search Insert Position](study-plans/binary-search/35.-search-insert-position.md)
+    * [744. Find Smallest Letter Greater Than Target](study-plans/binary-search/744.-find-smallest-letter-greater-than-target.md)
