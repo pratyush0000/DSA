@@ -76,6 +76,8 @@
 * [MISC](misc/README.md)
   * [Tree Of Space (JusPay)](misc/tree-of-space-juspay.md)
 * [Sheets](sheets/README.md)
+  * [Apna College DSA Sheet](sheets/apna-college-dsa-sheet/README.md)
+    * [169. Majority Element](sheets/apna-college-dsa-sheet/169.-majority-element.md)
   * [Introduction to Pandas](sheets/introduction-to-pandas/README.md)
     * [2877. Create a DataFrame from List](sheets/introduction-to-pandas/2877.-create-a-dataframe-from-list.md)
     * [2878. Get the Size of a DataFrame](sheets/introduction-to-pandas/2878.-get-the-size-of-a-dataframe.md)
