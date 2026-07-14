@@ -144,3 +144,5 @@
       * [Q1. Combine Two Tables](quests/database/sql-1/q1.-combine-two-tables.md)
       * [Q2. Employees Earning More Than Their Managers](quests/database/sql-1/q2.-employees-earning-more-than-their-managers.md)
       * [Q3. Not Boring Movies](quests/database/sql-1/q3.-not-boring-movies.md)
+      * [Q4. Find Customer Referee](quests/database/sql-1/q4.-find-customer-referee.md)
+      * [Q1. Employees Whose Manager Left the Company (Quiz)](quests/database/sql-1/q1.-employees-whose-manager-left-the-company-quiz.md)
