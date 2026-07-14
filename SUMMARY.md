@@ -143,3 +143,4 @@
     * [SQL 1](quests/database/sql-1/README.md)
       * [Q1. Combine Two Tables](quests/database/sql-1/q1.-combine-two-tables.md)
       * [Q2. Employees Earning More Than Their Managers](quests/database/sql-1/q2.-employees-earning-more-than-their-managers.md)
+      * [Q3. Not Boring Movies](quests/database/sql-1/q3.-not-boring-movies.md)
