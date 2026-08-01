@@ -80,6 +80,7 @@
     * [Arrays](sheets/apna-college-dsa-sheet/arrays/README.md)
       * [169. Majority Element](sheets/apna-college-dsa-sheet/arrays/169.-majority-element.md)
       * [121. Best Time to Buy and Sell Stock](sheets/apna-college-dsa-sheet/arrays/121.-best-time-to-buy-and-sell-stock.md)
+      * [136. Single Number](sheets/apna-college-dsa-sheet/arrays/136.-single-number.md)
   * [Introduction to Pandas](sheets/introduction-to-pandas/README.md)
     * [2877. Create a DataFrame from List](sheets/introduction-to-pandas/2877.-create-a-dataframe-from-list.md)
     * [2878. Get the Size of a DataFrame](sheets/introduction-to-pandas/2878.-get-the-size-of-a-dataframe.md)
