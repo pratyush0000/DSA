@@ -149,3 +149,4 @@
       * [Q1. Employees Whose Manager Left the Company (Quiz)](quests/database/sql-1/q1.-employees-whose-manager-left-the-company-quiz.md)
     * [Filtering & Aggregation](quests/database/filtering-and-aggregation/README.md)
       * [Q1. Customer Placing the Largest Number of Orders](quests/database/filtering-and-aggregation/q1.-customer-placing-the-largest-number-of-orders.md)
+      * [Q2. Classes With at Least 5 Students](quests/database/filtering-and-aggregation/q2.-classes-with-at-least-5-students.md)
