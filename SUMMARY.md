@@ -147,3 +147,5 @@
       * [Q3. Not Boring Movies](quests/database/sql-1/q3.-not-boring-movies.md)
       * [Q4. Find Customer Referee](quests/database/sql-1/q4.-find-customer-referee.md)
       * [Q1. Employees Whose Manager Left the Company (Quiz)](quests/database/sql-1/q1.-employees-whose-manager-left-the-company-quiz.md)
+    * [Filtering & Aggregation](quests/database/filtering-and-aggregation/README.md)
+      * [Q1. Customer Placing the Largest Number of Orders](quests/database/filtering-and-aggregation/q1.-customer-placing-the-largest-number-of-orders.md)
