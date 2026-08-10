@@ -150,3 +150,4 @@
     * [Filtering & Aggregation](quests/database/filtering-and-aggregation/README.md)
       * [Q1. Customer Placing the Largest Number of Orders](quests/database/filtering-and-aggregation/q1.-customer-placing-the-largest-number-of-orders.md)
       * [Q2. Classes With at Least 5 Students](quests/database/filtering-and-aggregation/q2.-classes-with-at-least-5-students.md)
+      * [Q3. Monthly Transactions I](quests/database/filtering-and-aggregation/q3.-monthly-transactions-i.md)
