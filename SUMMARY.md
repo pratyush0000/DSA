@@ -143,6 +143,7 @@
       * [169. Majority Element](sheets/strivers-180/arrays/169.-majority-element.md)
       * [53. Maximum Subarray](sheets/strivers-180/arrays/53.-maximum-subarray.md)
       * [229. Majority Element II](sheets/strivers-180/arrays/229.-majority-element-ii.md)
+      * [152. Maximum Product Subarray](sheets/strivers-180/arrays/152.-maximum-product-subarray.md)
 * [Study Plans](study-plans/README.md)
   * [Binary Search](study-plans/binary-search/README.md)
     * [704. Binary Search](study-plans/binary-search/704.-binary-search.md)
